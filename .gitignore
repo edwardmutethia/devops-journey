@@ -1,0 +1,36 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.log
+*~
+
+# Secrets (NEVER commit these)
+.env
+.env.local
+*.pem
+*.key
+credentials.json
+
+# Build artifacts
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+
+# Existing learning repos (keep separate)
+c_programming/
+javascript/
+python/
+learning-track/
+project/
+setup/
