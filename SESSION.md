@@ -30,14 +30,14 @@
 
 **Full roadmap:** `~/career/README.md`
 
-| Phase | Months | Focus |
-|---|---|---|
-| 1 | 1 | Linux + Bash + Python |
-| 2 | 2 | Cloud + Terraform + Docker |
-| 3 | 3 | Go + Kubernetes + Backend |
-| 4 | 4 | Advanced AWS + Security |
-| 5 | 5 | System Design + SRE |
-| 6 | 6 | Capstone + Job Search |
+| Phase | Months | Focus                      |
+| ----- | ------ | -------------------------- |
+| 1     | 1      | Linux + Bash + Python      |
+| 2     | 2      | Cloud + Terraform + Docker |
+| 3     | 3      | Go + Kubernetes + Backend  |
+| 4     | 4      | Advanced AWS + Security    |
+| 5     | 5      | System Design + SRE        |
+| 6     | 6      | Capstone + Job Search      |
 
 ---
 
@@ -54,6 +54,7 @@
 ## The Pattern to Watch
 
 Edward's restart pattern:
+
 ```
 Week 1: "I'll learn Linux!"     → starts
 Week 2: "What about cybersecurity?" → switches
@@ -63,22 +64,23 @@ Week 5: "What about C#/Java?"   → switches
 ```
 
 **If he wants to switch again, point him to this file and ask:**
+
 > "Is this on the roadmap? If not, it goes in the Later list."
 
 ---
 
 ## Progress Tracker
 
-| Week | Dates | Status | Notes |
-|---|---|---|---|
-| 1 | Oct 2–8 | 🔲 Not started | Bash scripting + sysmon |
-| 2 | Oct 9–15 | 🔲 Not started | Python + log-analyzer |
-| 3 | Oct 16–22 | 🔲 Not started | Git + GitHub |
-| 4 | Oct 23–29 | 🔲 Not started | Linux systems deep dive |
-| 5 | Oct 30–Nov 5 | 🔲 Not started | AWS core |
-| 6 | Nov 6–12 | 🔲 Not started | Terraform |
-| 7 | Nov 13–19 | 🔲 Not started | Docker |
-| 8 | Nov 20–26 | 🔲 Not started | CI/CD |
+| Week | Dates        | Status         | Notes                   |
+| ---- | ------------ | -------------- | ----------------------- |
+| 1    | Oct 2–8      | 🟡 In progress | Linux nav ✅, file manipulation ✅, vim ✅, I/O redirection ✅ |
+| 2    | Oct 9–15     | 🔲 Not started | Python + log-analyzer   |
+| 3    | Oct 16–22    | 🔲 Not started | Git + GitHub            |
+| 4    | Oct 23–29    | 🔲 Not started | Linux systems deep dive |
+| 5    | Oct 30–Nov 5 | 🔲 Not started | AWS core                |
+| 6    | Nov 6–12     | 🔲 Not started | Terraform               |
+| 7    | Nov 13–19    | 🔲 Not started | Docker                  |
+| 8    | Nov 20–26    | 🔲 Not started | CI/CD                   |
 
 **Status key:** 🔲 Not started | 🟡 In progress | 🟢 Complete | 🔴 Blocked
 
@@ -102,6 +104,7 @@ Things Edward wants to learn that are NOT on the current roadmap:
 ## Key Conversations
 
 ### 2026-10-02
+
 - Created 6-month roadmap
 - Decided on DevOps/SRE path
 - Agreed on Go (not C#/Java) for backend
@@ -121,4 +124,4 @@ Things Edward wants to learn that are NOT on the current roadmap:
 
 ---
 
-*This file is updated at the end of every session.*
+_This file is updated at the end of every session._
