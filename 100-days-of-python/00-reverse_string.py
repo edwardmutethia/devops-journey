@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # Problem:
 # Write a function to reverse a given string.
 def reverse_string(s: str) -> str:
