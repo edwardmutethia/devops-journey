@@ -12,6 +12,8 @@ import random
 MIN_BOUND: int = 1
 MAX_BOUND: int = 10
 
+wins_history: list[int] = []
+
 
 def get_valid_guess(min_val: int, max_val: int) -> int:
     """Prompt user an integer within a specific range and validate it"""
@@ -44,6 +46,10 @@ def evaluate_guess(guess: int, secret_number: int) -> bool:
     return False
 
 
+def record_wins_history(trials: int) -> None:
+    wins_history.append(trials)
+
+
 def play_game(min_val: int, max_val: int) -> None:
     """Manage the main game loop, tracking trials and running core mechanics"""
     trials: int = 0
@@ -55,6 +61,7 @@ def play_game(min_val: int, max_val: int) -> None:
 
         if evaluate_guess(guess, secret_number):
             print(f"Correct you guessed it in {trials} trials")
+            record_wins_history(trials)
             break
 
 
